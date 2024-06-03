@@ -16,6 +16,7 @@
             </div>
             <div class="header-right">
                 <form action="#" method="GET" class="search-form">
+                    @csrf
                     <input type="text" name="search" placeholder="なにをお探しですか？">
                 </form>
                 @auth
